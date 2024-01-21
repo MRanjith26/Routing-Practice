@@ -1,0 +1,93 @@
+/* Write your CSS code here */
+.nav-bar {
+  padding: 20px;
+}
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.logo {
+  width: 30px;
+}
+.logo-text {
+  font-family: 'Roboto';
+  color: #12022f;
+}
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+li {
+  list-style-type: none;
+  text-decoration: none;
+  color: #551e53;
+  font-family: 'Roboto';
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #551e53;
+}
+@media screen and (max-width: 576px) {
+  .nav-container {
+    justify-content: center;
+  }
+  .logo-text {
+    font-size: 15px;
+  }
+  li {
+    font-size: 15px;
+    padding: 10px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .nav-container {
+    justify-content: space-between;
+  }
+  .logo-text {
+    font-size: 20px;
+  }
+  li {
+    padding-left: 30px;
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .nav-container {
+    justify-content: space-between;
+  }
+  .logo-text {
+    font-size: 20px;
+  }
+  li {
+    padding-left: 30px;
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 992px), (min-width: 1200px) {
+  .nav-container {
+    justify-content: space-between;
+  }
+  .logo-text {
+    font-size: 20px;
+  }
+  li {
+    padding-left: 30px;
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,26 @@
+/* Write your CSS code here */
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.not-found-img {
+  margin: 10px;
+}
+@media screen and (max-width: 576px), (min-width: 576px), (min-width: 768px) {
+  .not-found-container {
+    height: 50vh;
+  }
+  .not-found-img {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 992px), (min-width: 1200px) {
+  .not-found-container {
+    height: 70vh;
+  }
+  .not-found-img {
+    width: 400px;
+  }
+}
